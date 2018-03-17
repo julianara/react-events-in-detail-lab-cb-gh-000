@@ -11,7 +11,7 @@ export default class DelayedButton extends React.Component {
     event.persist();
     setTimeout (() => {
       
-    });
+    }, this.props.delay);
     
   }
   
