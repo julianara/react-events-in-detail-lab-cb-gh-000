@@ -8,6 +8,7 @@ export default class DelayedButton extends React.Component {
   }
   
   handleEvent(event) {
+    event.persist();
     
   }
   
