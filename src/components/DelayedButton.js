@@ -12,7 +12,7 @@ export default class DelayedButton extends React.Component {
   }
   
   render() {
-    return(<button onClick={this.clickEvent}>);
+    return(<button onClick={this.clickEvent}>Delay</button>);
   }
   
 }
